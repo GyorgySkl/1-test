@@ -3343,8 +3343,3 @@ input, select, textarea {
 			}
 
 		}
-
-/* Приховати логотип та елементи в шапці ліворуч */
-#header .logo {
-    display: none !important;
-}
