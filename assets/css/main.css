@@ -3343,15 +3343,3 @@ input, select, textarea {
 			}
 
 		}
-/* Исходное затемнение плитки */
-.tiles article > .image:before {
-    display: block !important;
-    opacity: 0.4 !important; /* 0.4 = 40% затемнения. Можно поставить 0.3 или 0.5 */
-    transition: opacity 0.5s ease !important;
-    background-color: #000000 !important;
-}
-
-/* Полная прозрачность фото при наведении */
-.tiles article:hover > .image:before {
-    opacity: 0 !important;
-}
