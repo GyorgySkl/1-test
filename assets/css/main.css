@@ -3344,3 +3344,21 @@ input, select, textarea {
 
 		}
 
+/* Фиксируем видимость картинки и убираем её исчезновение */
+.tiles article > .image img {
+    opacity: 1 !important;
+    transform: scale(1) !important;
+    transition: opacity 0.3s ease, transform 0.3s ease !important;
+}
+
+/* При наведении: картинка НЕ исчезает, а слегка увеличивается */
+.tiles article:hover > .image img {
+    opacity: 0.9 !important; /* Легкое осветление вместо полной прозрачности */
+    transform: scale(1.05) !important; /* Плавное увеличение */
+}
+
+/* Гарантированно убираем исчезновение ссылки поверх картинки */
+.tiles article > a {
+    opacity: 1 !important;
+}
+
