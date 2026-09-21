@@ -3344,12 +3344,5 @@ input, select, textarea {
 
 		}
 
-/* Перемістити блок з текстом у низ картки */
-.tiles article > a {
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: flex-end !important; /* Притискає вміст до низу */
-    padding-bottom: 2em !important;        /* Відступ від нижнього краю */
-}
 
 
