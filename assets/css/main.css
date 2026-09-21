@@ -3344,5 +3344,20 @@ input, select, textarea {
 
 		}
 
+/* Повністю вимикаємо кольорові фони та градієнти під і над фотографіями */
+.tiles article,
+.tiles article > .image,
+.tiles article > a {
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+/* Прибираємо накладання кольорів при наведенні курсора */
+.tiles article:hover > .image,
+.tiles article:before,
+.tiles article:after {
+    background: none !important;
+    opacity: 0 !important;
+}
 
 
