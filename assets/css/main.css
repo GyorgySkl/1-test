@@ -3344,28 +3344,3 @@ input, select, textarea {
 
 		}
 
-/* Повністю видаляємо кольорові накладки (overlay) поверх картинок */
-.tiles article:before,
-.tiles article:after,
-.tiles article > .image:before,
-.tiles article > .image:after {
-    display: none !important;
-    content: none !important;
-    background: none !important;
-    opacity: 0 !important;
-}
-
-/* Скидаємо кольорові фони самих блоків */
-.tiles article,
-.tiles article.style1,
-.tiles article.style2,
-.tiles article.style3,
-.tiles article.style4,
-.tiles article.style5,
-.tiles article.style6 {
-    background-color: transparent !important;
-    background-image: none !important;
-}
-
-
-
