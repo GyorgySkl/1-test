@@ -3363,17 +3363,3 @@ input, select, textarea {
 }
 
 
-/* Примусово розтягуємо картинки на всю ширину та висоту плитки без чорних рамок */
-.tiles article > .image img {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover !important;
-    object-position: center !important;
-}
-
-/* Фіксуємо висоту контейнера для однакового розміру всіх карточок */
-.tiles article > .image {
-    height: 100% !important;
-    min-height: 350px !important;
-}
-
